@@ -1,6 +1,5 @@
 with open('input.txt') as input:
     lines = input.readlines()
-    #print(lines)
     
 lines_f = []
 
@@ -8,7 +7,6 @@ for l in lines:
     f = l.split('\n')
     lines_f.append(f[0])
 
-#print(lines_f)
 
 index = 0
 sums = []
